@@ -1,0 +1,13 @@
+.gallery{
+    background-color: #E1DCDE;
+}
+
+.section5-Gallery {
+    background: url("../Images/gallery.png") center center/cover no-repeat;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 4px;
+  }

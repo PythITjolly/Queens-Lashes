@@ -1,0 +1,100 @@
+.subheader-container {
+  background: url("../Images/services.png") center center/cover no-repeat;
+  height: 45vh;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  
+}
+
+.subheader-container > h2 {
+  color: black;
+  font-size: 40px;
+  font-style: italic;
+  margin-left: 50rem;
+  margin-top: 2px;
+}
+
+.subheader-container > p {
+  color: black;
+  margin-top: 3rem;
+  margin-left: 50rem;
+  font-size: 20px;
+}
+
+.subheader-btns {
+  margin-top: 2px;
+  width: 20%;
+  margin-left: 3rem;
+}
+
+.subheader-btns .btn {
+  margin: 6px;
+}
+
+@media screen and (max-width: 960px) {
+  .subheader-container > h2 {
+    font-size: 28px;
+    margin-top: 2px;
+    margin-left: 32rem;
+  }
+
+  .subheader-container > p {
+    color: black;
+    margin-top: 3rem;
+    margin-left: 32rem;
+    font-size: 18px;
+  }
+
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+
+  .subheader-btns {
+    margin-top: 1px;
+    width: 20%;
+    margin-left: 0.1rem;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .subheader-container {
+    background: url("../Images/services.png") center center/cover no-repeat;
+    height: 50vw;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 1px;
+  }
+  .subheader-container > h2 {
+    font-size: 14px;
+    margin-top: 1px;
+    color: black;
+    margin-left: 13rem;
+  }
+  .subheader-container > p {
+    font-size: 10px;
+    margin-top: 2px;
+    color: black;
+    margin-left: 13rem;
+  }
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+
+  .btn {
+    width: 120%;
+  }
+  .hero-btns {
+    margin-top: 0.1px;
+    width: 20%;
+  }
+}
