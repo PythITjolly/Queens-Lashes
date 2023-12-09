@@ -90,10 +90,16 @@
   }
 
   .btn {
-    width: 120%;
+    width: 150%;
   }
   .hero-btns {
     margin-top: 0.1px;
     width:20%;
+  }
+
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+    width: 20%;
   }
 }
