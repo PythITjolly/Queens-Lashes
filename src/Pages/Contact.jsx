@@ -64,7 +64,7 @@ const StyledContactFormContainer = styled.div`
 
 const StyledContactForm = styled.form`
   display: ${({ showSuccessMessage }) => (showSuccessMessage ? 'none' : 'block')};
-  width: 50%;
+  width: 75%;
   height: 100%;
   padding: 20px;
   border-radius: 8px;
@@ -96,6 +96,85 @@ const StyledContactForm = styled.form`
     border-radius: 5px;
     font-weight: bold;
     font-size: 24px;
+  }
+
+  @media screen and (max-width: 768px) {
+    display: ${({ showSuccessMessage }) => (showSuccessMessage ? 'none' : 'block')};
+    width: 90%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #8C8587;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: light;
+      font-size: 20px;
+    }
+  
+    input,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #8C8587;
+      border-radius: 5px;
+    }
+  
+    input[type="submit"] {
+      cursor: pointer;
+      background-color: #FFC7C2;
+      color: black;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 24px;
+    }
+
+  }
+
+  @media screen and (max-width: 1024px) {
+    display: ${({ showSuccessMessage }) => (showSuccessMessage ? 'none' : 'block')};
+    width: 90%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #8C8587;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10rem;
+  }
+  
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: light;
+      font-size: 20px;
+    }
+  
+    input,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #8C8587;
+      border-radius: 5px;
+    }
+  
+    input[type="submit"] {
+      cursor: pointer;
+      background-color: #FFC7C2;
+      color: black;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 24px;
+    }
+
   }
 `;
 

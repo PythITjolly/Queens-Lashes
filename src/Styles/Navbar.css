@@ -1,12 +1,12 @@
 .navbar {
-  background: #8C8587;
+  background: #8c8587;
   height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
   position: sticky;
-  top: 80px;
+  top: 8rem;
   z-index: 999;
 }
 
@@ -16,42 +16,30 @@
   align-items: center;
   height: 80px;
   max-width: 1500px;
-  background: #8C8587;
+  background: #8c8587;
 }
 
-.navbar-logo {
-  color: #FBE4EA;
-  justify-self: start;
-  margin-left: 10px;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 22px;
-  font-style: italic;
-  display: flex;
-  align-items: left;
-  background: #8C8587;
-}
-
-.header{
+.header {
   min-height: 50px;
   width: 100%;
-  background-color: #FBE4EA;
+  background-color: #fbe4ea;
   position: sticky;
   display: grid;
   grid-template-columns: repeat(3, auto);
   grid-gap: 100px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-style: italic;
   align-items: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
   top: 0;
   z-index: 999;
 }
 
 .logo {
-  width: 90px;
+  width: 9rem;
   height: auto;
-  color: #FBE4EA;
+  color: #fbe4ea;
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
@@ -60,10 +48,10 @@
   font-style: italic;
   display: flex;
   align-items: left;
-  background: #8C8587;
+  background: #8c8587;
   position: sticky;
+  z-index: 999;
 }
-
 
 .nav-menu {
   display: grid;
@@ -74,22 +62,23 @@
   width: 100vw;
   justify-content: end;
   margin-right: 2rem;
-  background-color: #8C8587;
+  background-color: #8c8587;
+  height: 80px;
 }
 
 .nav-item {
   height: 80px;
-  background-color: #8C8587;
+  background-color: #8c8587;
 }
 
 .nav-links {
-  color: #FFC7C2;
+  color: #ffc7c2;
   display: flex;
   align-items: center;
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
-  background-color: #8C8587;
+  background-color: #8c8587;
 }
 
 .nav-links:hover {
@@ -98,8 +87,8 @@
 }
 
 .fa-bars {
-  color: #FFC7C2;
-  background-color: #8C8587;
+  color: #ffc7c2;
+  background-color: #8c8587;
 }
 
 .nav-links-mobile {
@@ -108,23 +97,12 @@
 
 .menu-icon {
   display: none;
-  
 }
 
 @media screen and (max-width: 960px) {
-  .navbar-logo {
-    margin-left: -30px;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 1.1rem;
-    font-style: italic;
-    display: flex;
-    align-items: left;
-    background: #8C8587;
-  }
   .nav-item {
     height: 200px;
-    background-color: #8C8587;
+    background-color: #8c8587;
   }
   .nav-menu {
     display: flex;
@@ -139,7 +117,7 @@
   }
 
   .nav-menu.active {
-    background: #8C8587;
+    background: #8c8587;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -154,16 +132,9 @@
   }
 
   .nav-links:hover {
-    background-color: #FBE4EA;
+    background-color: #fbe4ea;
     color: #242424;
     border-radius: 0;
-  }
-
-  .navbar-logo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(25%, 50%);
   }
 
   .menu-icon {
@@ -177,9 +148,9 @@
   }
 
   .fa-times {
-    color:#FFC7C2;
+    color: #ffc7c2;
     font-size: 2rem;
-    background-color: #8C8587;
+    background-color: #8c8587;
   }
 
   .nav-links-mobile {
@@ -191,7 +162,7 @@
     text-decoration: none;
     font-size: 1.5rem;
     background-color: transparent;
-    color: #FFC7C2;
+    color: #ffc7c2;
     padding: 14px 20px;
     border: 1px solid #fff;
     transition: all 0.3s ease-out;
@@ -203,19 +174,7 @@
     transition: 250ms;
   }
 }
-.header{
-  min-height: 50px;
-  width: 100%;
-  background-color: #FBE4EA;
-  position: sticky;
-  display: grid;
-  grid-template-columns: repeat(4, auto);
-  grid-gap: 5px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-style: italic;
-  align-items: center;
-  font-size: 1rem;
-}
+
 .btn-mobile {
   display: block;
   text-decoration: none;
@@ -224,26 +183,75 @@
 .btn {
   width: 50%;
 }
+
+.header {
+  min-height: 50px;
+  width: 100%;
+  background-color: #fbe4ea;
+  position: sticky;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 100px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+  align-items: center;
+  font-size: 1.5rem;
+  top: 0;
+  z-index: 999;
+}
 @media screen and (max-width: 768px) {
+  .navbar {
+    background: #8c8587;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 5rem;
+    z-index: 999;
+  }
+
   .btn-mobile {
-      display: block;
-      text-decoration: none;
+    display: block;
+    text-decoration: none;
   }
-  
+
   .btn {
-      width: 50%;
+    width: 50%;
   }
-  .header{
+  .header {
     min-height: 50px;
     width: 100%;
-    background-color: #FBE4EA;
+    background-color: #fbe4ea;
     position: sticky;
     display: grid;
     grid-template-columns: repeat(4, auto);
     grid-gap: 5px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-style: italic;
     align-items: center;
-    font-size: 0.45rem;
+    font-size: 0.4rem;
   }
+
+  .logo {
+    width: 5rem;
+    height: auto;
+    color: #fbe4ea;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-style: italic;
+    display: flex;
+    align-items: left;
+    background: #8c8587;
+    position: sticky;
+    z-index: 999;
+  }
+
+
 }

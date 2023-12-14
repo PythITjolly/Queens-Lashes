@@ -24,7 +24,7 @@ function Cards() {
               your natural lashes.
               Great in adding lash length."
                 label="Classic"
-                path="/services"
+                path="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ01_iFrj-tbsoh0Ux6m4QFLzlm0nj1shrrBA-iMPwU9qA1dwf3UI-tvJ69hbx2rZYxb1A4u84NM?gv=true"
               />
               <CardItem
                 src={VolumeImage}
@@ -33,7 +33,7 @@ function Cards() {
               Great way to add volume and
               definition to your eye look."
                 label="Volume"
-                path="/services"
+                path="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ01_iFrj-tbsoh0Ux6m4QFLzlm0nj1shrrBA-iMPwU9qA1dwf3UI-tvJ69hbx2rZYxb1A4u84NM?gv=true"
               />
               <CardItem
                 src={HybridImage}
@@ -41,14 +41,14 @@ function Cards() {
               extension. It’s a timeless definition
               of classic lashes with added volume."
                 label="Hybrid"
-                path="/services"
+                path="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ01_iFrj-tbsoh0Ux6m4QFLzlm0nj1shrrBA-iMPwU9qA1dwf3UI-tvJ69hbx2rZYxb1A4u84NM?gv=true"
               />
             </ul>
           </div>
         </div>
       </div>
       <div className="cards">
-        <h1>Lash Lift</h1>
+        <h1>Lash Lift & Infills</h1>
         <div className="cards__container">
           <div className="cards__wrapper">
             <ul className="cards__items">
@@ -60,16 +60,17 @@ function Cards() {
               to curlers that can cut your lashes
               and wake up to gorgeous lashes."
                 label="Lash Lift"
-                path="/services"
+                path="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ01_iFrj-tbsoh0Ux6m4QFLzlm0nj1shrrBA-iMPwU9qA1dwf3UI-tvJ69hbx2rZYxb1A4u84NM?gv=true"
               />
               <CardItem
                 src={InfillsImage}
+                alt
                 text="Natural lashes and the lash extension naturally
               sheds off. The lash infill technique allows to fill
               in the gaps. Advisable to be done within 2-3 
               weeks after the lash extension."
                 label="Lash Infills"
-                path="/services"
+                path="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ01_iFrj-tbsoh0Ux6m4QFLzlm0nj1shrrBA-iMPwU9qA1dwf3UI-tvJ69hbx2rZYxb1A4u84NM?gv=true"
               />
               <CardItem
                 src={LogoImage}

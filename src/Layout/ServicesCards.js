@@ -22,28 +22,21 @@ function ServicesCards() {
                 src={ClassicImage}
                 text={
                   <div>
-                    Classic Extension <br />
-                    <span style={{ fontWeight: "lighter", fontSize: "14px" }}>
+                    
                       Application: 1:1 <br />
                       (1 natural eyelash to 1 extension) <br />
-                    </span>
-                    Basic Classic:{" "}
-                    <span style={{ fontWeight: "lighter", fontSize: "12px" }}>
+                      <span style={{ fontWeight: "bold", color: "black" }}>Basic Classic:{" "}</span>
                       covers 70% of the natural lashes <br />
+                      <span style={{ fontWeight: "bold", color: "black" }}>NZD70 <br />
                     </span>
-                    NZD70 <br />
-                    <span style={{ fontWeight: "lighter" }}></span>Full Classic:{" "}
-                    <span style={{ fontWeight: "lighter", fontSize: "12px" }}>
-                      covers100% of the natural lashes <br />
-                    </span>
-                    NZD80 <br />
-                    Duration:{" "}
-                    <span style={{ fontWeight: "lighter", fontSize: "14px" }}>
-                      1hr
-                    </span>{" "}
+                    <span style={{ fontWeight: "bold", color: "black" }}>Full Classic:{" "} </span>
+                      covers 100% of the natural lashes <br />
+                      <span style={{ fontWeight: "bold", color: "black" }}>NZD80 </span><br />
+                      <span style={{ fontWeight: "bold", color: "black" }}>Duration:{" "}</span>
+                      1hr{" "}
                   </div>
                 }
-                label="Book Now"
+                label="Classic Extension"
                 path="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ01_iFrj-tbsoh0Ux6m4QFLzlm0nj1shrrBA-iMPwU9qA1dwf3UI-tvJ69hbx2rZYxb1A4u84NM?gv=true"
               />
 
@@ -51,28 +44,21 @@ function ServicesCards() {
                 src={VolumeImage}
                 text={
                   <div>
-                    Volume Extension <br />
-                    <span style={{ fontWeight: "lighter", fontSize: "14px" }}>
                       Application: 3:1 <br />
                       (1 natural eyelash to 3 extensions) <br />
-                    </span>
-                    Russian:{" "}
-                    <span style={{ fontWeight: "lighter", fontSize: "12px" }}>
+                      <span style={{ fontWeight: "bold", color: "black" }}>Russian:{" "}</span>
                       covers 70% of the natural lashes <br />
+                      <span style={{ fontWeight: "bold", color: "black" }}>NZD120 <br />
                     </span>
-                    NZD120 <br />
-                    <span style={{ fontWeight: "lighter" }}></span>Full Russian:{" "}
-                    <span style={{ fontWeight: "lighter", fontSize: "12px" }}>
+                    <span style={{ fontWeight: "bold", color: "black" }}>Full Russian:{" "}</span>
                       covers100% of the natural lashes <br />
+                    <span style={{ fontWeight: "bold", color: "black" }}>NZD150 <br />
                     </span>
-                    NZD150 <br />
-                    Duration:{" "}
-                    <span style={{ fontWeight: "lighter", fontSize: "14px" }}>
-                      3 - 4 hrs
-                    </span>{" "}
+                    <span style={{ fontWeight: "bold", color: "black" }}>Duration:{" "}</span>
+                      3 - 4 hrs{" "}
                   </div>
                 }
-                label="Book Now"
+                label="Volume Extension "
                 path="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ01_iFrj-tbsoh0Ux6m4QFLzlm0nj1shrrBA-iMPwU9qA1dwf3UI-tvJ69hbx2rZYxb1A4u84NM?gv=true"
               />
 
@@ -80,18 +66,14 @@ function ServicesCards() {
                 src={HybridImage}
                 text={
                   <div>
-                    Hybrid Extension <br />
-                    <span style={{ fontWeight: "lighter", fontSize: "14px" }}>
                       Combination of classic and volume extension. <br />
+                      <span style={{ fontWeight: "bold", color: "black" }}>NZD100 <br />
                     </span>
-                    NZD100 <br />
-                    Duration:{" "}
-                    <span style={{ fontWeight: "lighter", fontSize: "14px" }}>
+                    <span style={{ fontWeight: "bold", color: "black" }}>Duration:{" "} </span>
                       1 - 2 hrs
-                    </span>
                   </div>
                 }
-                label="Book Now"
+                label="Hybrid Extension"
                 path="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ01_iFrj-tbsoh0Ux6m4QFLzlm0nj1shrrBA-iMPwU9qA1dwf3UI-tvJ69hbx2rZYxb1A4u84NM?gv=true"
               />
             </ul>
@@ -108,21 +90,17 @@ function ServicesCards() {
                 src={InfillsImage}
                 text={
                   <div>
-                    Classic Extension <br />
                     3 weeks infill <br />
-                    NZD50 <br />
-                    <span style={{ fontWeight: "lighter", fontSize: "14px" }}>
+                    <span style={{ fontWeight: "bold", color: "black" }}>NZD50 <br />
+                    </span>
                       Must have at least 50% of lashes remaining from the
                       previous session (classic extension)
                       <br />
-                    </span>
-                    Duration:{" "}
-                    <span style={{ fontWeight: "lighter", fontSize: "14px" }}>
+                      <span style={{ fontWeight: "bold", color: "black" }}>Duration:{" "}</span>
                       30 min - 1hr
-                    </span>
                   </div>
                 }
-                label="Book Now"
+                label="Classic Extension "
                 path="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ01_iFrj-tbsoh0Ux6m4QFLzlm0nj1shrrBA-iMPwU9qA1dwf3UI-tvJ69hbx2rZYxb1A4u84NM?gv=true"
               />
 
@@ -138,13 +116,13 @@ function ServicesCards() {
                       previous Russian Volume Full Set session
                       <br />
                     </span>
-                    Duration:{" "}
+                    <span style={{ fontWeight: "bold", color: "black" }}>Duration:{" "}</span>
                     <span style={{ fontWeight: "lighter", fontSize: "14px" }}>
                       2 - 3 hrs
                     </span>
                   </div>
                 }
-                label="Book Now"
+                label="Volume Extension"
                 path="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ01_iFrj-tbsoh0Ux6m4QFLzlm0nj1shrrBA-iMPwU9qA1dwf3UI-tvJ69hbx2rZYxb1A4u84NM?gv=true"
               />
 
@@ -160,13 +138,11 @@ function ServicesCards() {
                       previous set.
                       <br />
                     </span>
-                    Duration:{" "}
-                    <span style={{ fontWeight: "lighter", fontSize: "14px" }}>
+                    <span style={{ fontWeight: "bold", color: "black" }}>Duration:{" "}</span>
                       30 min - 1hr
-                    </span>
                   </div>
                 }
-                label="Book Now"
+                label="Hybrid Extension "
                 path="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ01_iFrj-tbsoh0Ux6m4QFLzlm0nj1shrrBA-iMPwU9qA1dwf3UI-tvJ69hbx2rZYxb1A4u84NM?gv=true"
               />
             </ul>
@@ -183,19 +159,17 @@ function ServicesCards() {
                 src={LiftImage}
                 text={
                   <div>
-                    Lash Lift - NZD50 
-                    <span style={{ fontWeight: "lighter", fontSize: "12px" }}>
-                      (set under $70)<br />
-                    </span>
-                    Lasht Lift with Treatment- NZD60<br />
-                    Lasht Lift & Tint - NZD70
-                    <span style={{ fontWeight: "lighter", fontSize: "12px" }}>
-                     (set under $80) <br />
-                    </span>
-                    Duration: <span style={{ fontWeight: "lighter", fontSize: "14px" }}>30 min - 1hr
-                    </span> </div>
+                    <span style={{ fontWeight: "bold", color: "black" }}>Lash Lift - NZD50 </span> (set under $70)<br />
+          
+                      <span style={{ fontWeight: "bold", color: "black" }}>Lasht Lift with Treatment- NZD60<br />
+                    Lasht Lift & Tint - NZD70</span>
+                    
+                     <br />(set under $80) <br />
+                    
+                     <span style={{ fontWeight: "bold", color: "black" }}> Duration:</span> 30 min - 1hr
+                     </div>
                 }
-                label="Book Now"
+                label="Lash Lift"
                 path="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ01_iFrj-tbsoh0Ux6m4QFLzlm0nj1shrrBA-iMPwU9qA1dwf3UI-tvJ69hbx2rZYxb1A4u84NM?gv=true"
               />
 
@@ -203,20 +177,14 @@ function ServicesCards() {
                 src={ExtraImage}
                 text={
                   <div>
-                    Other Services <br />
-                    Lash Lift with Treatment - NZD60<br/>
-                    Lash Lift & Tint - NZD70
-                    <span style={{ fontWeight: "lighter", fontSize: "12px" }}>
-                      (set under $80)<br />
-                    </span>
-                    <span style={{ fontWeight: "lighter", fontSize: "12px" }}>
-                      covers100% of the natural lashes <br />
-                    </span>
-                    NZD150 <br />
-                    Duration: 3 - 4 hrs
+                    <span style={{ fontWeight: "bold", color: "black" }}>Lash Lift with Treatment - NZD60</span><br/>
+                    <span style={{ fontWeight: "bold", color: "black" }}>Lash Lift & Tint - NZD70</span>
+                        <br />(set under $80) covers100% of the natural lashes <br />
+                      <span style={{ fontWeight: "bold", color: "black" }}>NZD150</span> <br />
+                    <span style={{ fontWeight: "bold", color: "black" }}>Duration:</span> 3 - 4 hrs
                   </div>
                 }
-                label="Book Now"
+                label="Other Services"
                 path="/https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ01_iFrj-tbsoh0Ux6m4QFLzlm0nj1shrrBA-iMPwU9qA1dwf3UI-tvJ69hbx2rZYxb1A4u84NM?gv=true"
               />
 
@@ -224,12 +192,12 @@ function ServicesCards() {
                 src={LogoImage}
                 text={
                   <div>
-                    <span style={{ fontWeight: "bolder", fontSize: "26px", fontStyle: 'italic', }}>
+                    <span style={{ fontWeight: "bold", fontSize: "26px", fontStyle: 'italic', color: "black" }}>
                       Reserve your spot! <br />
                     </span>
                   </div>
                 }
-                label="Book Now"
+                label=""
                 path="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ01_iFrj-tbsoh0Ux6m4QFLzlm0nj1shrrBA-iMPwU9qA1dwf3UI-tvJ69hbx2rZYxb1A4u84NM?gv=true"
               />
             </ul>

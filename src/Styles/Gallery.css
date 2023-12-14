@@ -11,3 +11,29 @@
     justify-content: left;
     margin-top: 4px;
   }
+
+  @media screen and (max-width: 768px) {
+
+    .section5-Gallery {
+    background: url("../Images/gallery.png") center center/cover no-repeat;
+    height: 50vh;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    }
+
+    }
+
+    @media screen and (max-width: 1024px) {
+
+        .section5-Gallery {
+        background: url("../Images/gallery.png") center center/cover no-repeat;
+        height: 50vh;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        }
+    
+        }

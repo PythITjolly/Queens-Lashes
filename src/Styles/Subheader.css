@@ -12,7 +12,7 @@
   font-size: 40px;
   font-style: italic;
   margin-left: 58rem;
-  margin-top: 5rem;
+  margin-top: 4rem;
 }
 
 .subheader-container > p {
@@ -33,6 +33,45 @@
   margin: 6px;
 }
 
+
+@media screen and (max-width: 1024px) {
+  .subheader-container {
+    background: url("../Images/services.png") center center/cover no-repeat;
+    height: 40vw;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 1px;
+  }
+  .subheader-container > h2 {
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    color: black;
+    margin-left: 33rem;
+  }
+  .subheader-container > p {
+    font-size: 1.3rem;
+    margin-top: 1.5;
+    color: black;
+    margin-left: 33rem;
+    margin-right: 1rem;
+  }
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+    width: 100px;
+  }
+
+  .btn {
+    width: 120%;
+  }
+  .hero-btns {
+    margin-top: 0.1px;
+    width: 130%;
+  }
+}
+
 @media screen and (max-width: 960px) {
   .subheader-container > h2 {
     font-size: 28px;
@@ -42,9 +81,9 @@
 
   .subheader-container > p {
     color: black;
-    margin-top: 3rem;
+    margin-top: 2rem;
     margin-left: 32rem;
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .btn-mobile {
@@ -63,6 +102,7 @@
   }
 }
 
+
 @media screen and (max-width: 768px) {
   .subheader-container {
     background: url("../Images/services.png") center center/cover no-repeat;
@@ -77,13 +117,14 @@
     font-size: 14px;
     margin-top: 1px;
     color: black;
-    margin-left: 13rem;
+    margin-left: 15rem;
   }
   .subheader-container > p {
     font-size: 10px;
     margin-top: 2px;
     color: black;
-    margin-left: 13rem;
+    margin-left: 15rem;
+    margin-right: 1rem;
   }
   .btn-mobile {
     display: block;
