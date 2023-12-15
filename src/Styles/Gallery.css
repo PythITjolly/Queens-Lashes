@@ -1,7 +1,14 @@
 .gallery{
-    background-color: #FBE4EA;
+    background-color: white;
 }
 
+.Gallery > p {
+    color: #8c8587;
+    margin-bottom: 10rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: left;
+    margin-left: 2rem;
+  }
 
 .section5-Gallery {
     background: url("../Images/gallery.png") center center/cover no-repeat;
@@ -10,7 +17,7 @@
     display: flex;
     flex-direction: column;
     justify-content: left;
-    margin-top: 4px;
+    margin-top: 2rem;
   }
 
   @media screen and (max-width: 768px) {
